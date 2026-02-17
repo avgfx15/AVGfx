@@ -20,11 +20,6 @@ const App = () => {
       </div>
       <div>
         <h2>Section 2</h2>
-        <h2>Section 2</h2>
-        <h2>Section 2</h2>
-        <h2>Section 2</h2>
-        <h2>Section 2</h2>
-        <h2>Section 2</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut placeat
           modi ipsa et facere est? Nemo quaerat porro, pariatur sit possimus
