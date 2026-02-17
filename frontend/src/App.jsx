@@ -20,36 +20,29 @@ const App = () => {
       </div>
       <div>
         <h2>Section 2</h2>
+        <h2>Section 2</h2>
+        <h2>Section 2</h2>
+        <h2>Section 2</h2>
+        <h2>Section 2</h2>
+        <h2>Section 2</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          tempore possimus impedit repellat perspiciatis dignissimos, ipsa sequi
-          velit odio eligendi delectus est culpa libero ratione voluptatum
-          repudiandae aliquid amet laborum voluptas aliquam. Quaerat
-          exercitationem vitae inventore hic libero doloremque possimus ex
-          facere consequuntur sapiente, velit nobis sit corrupti deserunt
-          dignissimos esse delectus dolorem illo voluptatum, excepturi accusamus
-          in laudantium! Quasi dolorum dolorem itaque quia. Possimus at
-          reprehenderit accusamus. Delectus ut fugiat eaque, minima itaque
-          libero harum neque, ipsam voluptatum consectetur necessitatibus enim
-          sapiente tempora unde exercitationem dolores aliquam vel nulla eius
-          corporis facere autem ipsa error. Possimus eos accusamus illo atque id
-          consequatur, reiciendis fuga ratione soluta voluptatem eligendi a.
-          Saepe at possimus voluptates facilis cupiditate assumenda culpa eum.
-          Ex, placeat molestiae! Velit earum quisquam tenetur voluptatem eveniet
-          nisi reprehenderit officia hic numquam saepe corporis, aliquid qui cum
-          error assumenda fuga ducimus impedit ipsa perferendis, delectus
-          aliquam quod alias odio dolor. Commodi perferendis eius placeat sit,
-          quasi itaque ullam? Itaque delectus quasi rerum ipsum eum hic earum
-          eaque magni? Corporis maiores laborum voluptatem commodi fugit sunt,
-          mollitia modi nisi inventore dicta dolorem necessitatibus placeat
-          voluptate quasi hic eveniet aliquam ipsam perferendis. Illum adipisci
-          minima animi quisquam est sed et incidunt quia, aliquam corrupti. Aut
-          fugit qui suscipit accusamus tempore! Maxime distinctio, voluptatem
-          quasi ut accusamus adipisci consequatur, pariatur delectus dolorem
-          obcaecati praesentium fugit reiciendis soluta vel neque id architecto
-          blanditiis ea esse fuga. Vel beatae magni, quas id molestiae nobis
-          autem voluptatum ipsa consequuntur error, ipsam mollitia temporibus
-          eum fugiat!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut placeat
+          modi ipsa et facere est? Nemo quaerat porro, pariatur sit possimus
+          totam nesciunt repellendus tenetur voluptatibus amet harum error. Fuga
+          doloribus molestias earum cum asperiores nobis incidunt doloremque
+          quisquam sunt delectus adipisci nulla magni mollitia, laboriosam optio
+          veniam corrupti tempore ipsa pariatur praesentium, quaerat natus
+          maiores ipsam neque. Consequuntur voluptatibus aperiam, autem aut
+          quibusdam error rerum necessitatibus, ut, blanditiis cum corrupti
+          perspiciatis quas maxime consectetur. Ex eos explicabo vitae non
+          reprehenderit vel ad repudiandae. Ipsum doloribus nostrum harum vel
+          sunt voluptates eligendi possimus nemo nam deleniti inventore earum,
+          maxime quas consectetur libero perspiciatis molestiae ipsa dolor a
+          iste fuga iure esse deserunt. Doloremque magni adipisci atque
+          inventore provident accusantium ex fuga autem quos deserunt cumque
+          placeat vero asperiores sunt, accusamus corrupti aliquam sint illum
+          cum officia? Eaque, excepturi? Corrupti, eaque. Tempora accusantium
+          recusandae aspernatur at enim ducimus itaque, tempore velit.
         </p>
       </div>
       <div></div>
