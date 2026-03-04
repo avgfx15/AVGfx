@@ -5,6 +5,7 @@ const App = () => {
     <div>
       <div>
         <h1>AVGfx</h1>
+        <h1>Akshar Video Graphics Special effects</h1>
         <p>Audio Video Graphics Special Effects</p>
       </div>
       <div>
