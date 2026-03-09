@@ -17,7 +17,7 @@ const NavbarComponent = () => {
   };
 
   return (
-    <nav className='fixed top-0 left-0 z-50 backdrop-blur-md bg-black/80 border-b border-gray-800/50 items-center navbar'>
+    <nav className='fixed top-0 left-0 z-50 backdrop-blur-md bg-[#000642] border-b border-gray-800/50 items-center navbar'>
       <div className='navbar-container'>
         <div className='flex justify-between items-center h-16'>
           {/* Logo */}
@@ -26,7 +26,7 @@ const NavbarComponent = () => {
           </Link>
 
           {/* Desktop Navigation - centered */}
-          <ul className='hidden md:flex absolute left-1/2 transform -translate-x-1/2 gap-6 text-sm font-medium'>
+          <ul className='hidden md:flex absolute left-1/2 transform -translate-x-1/2 gap-6 text-sm font-medium uppercase'>
             <li>
               <Link
                 to='/'

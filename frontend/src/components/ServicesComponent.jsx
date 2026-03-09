@@ -21,7 +21,7 @@ const ServicesComponent = () => {
 
   return (
     // <section className='p-section relative animated-bg grid-pattern section-spacing my-10'>
-    <section className='p-section relative animated-bg grid-pattern my-10'>
+    <section className='min-h-screen p-section relative animated-bg grid-pattern'>
       <div
         className='absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30'
         style={{ backgroundImage: `url(${servicesBg})` }}
@@ -33,6 +33,7 @@ const ServicesComponent = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className='text-4xl md:text-5xl font-bold text-center mb-20 text-white'
+          style={{ marginBottom: '1rem' }}
         >
           <span className='bg-gradient-to-r from-[#ff2ed1] to-[#00e5ff] bg-clip-text text-transparent'>
             OUR SERVICES
@@ -49,6 +50,7 @@ const ServicesComponent = () => {
               whileHover={{ scale: 1.05, y: -10 }}
               key={i}
               className='group p-8 bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl hover:border-neonPink/50 transition-all duration-300'
+              style={{ padding: '2rem' }}
             >
               <div className='w-14 h-14 mb-6 rounded-xl bg-gradient-to-br from-neonPink to-neonPurple flex items-center justify-center'>
                 <svg

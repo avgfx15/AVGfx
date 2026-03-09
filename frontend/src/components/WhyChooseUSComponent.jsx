@@ -34,6 +34,7 @@ const WhyChooseUSComponent = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className='text-4xl md:text-5xl font-bold text-center mb-20 text-white'
+          style={{ marginBottom: '1rem' }}
         >
           <span className='bg-gradient-to-r from-[#7a5cff] to-[#ff2ed1] bg-clip-text text-transparent'>
             Why Choose AVGFX
@@ -49,6 +50,7 @@ const WhyChooseUSComponent = () => {
               transition={{ delay: i * 0.2 }}
               key={i}
               className='text-center p-8 bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl hover:border-neonPurple/50 transition-all duration-300'
+              style={{ padding: '1rem' }}
             >
               <div className='text-5xl mb-4'>{f.icon}</div>
               <h3 className='text-xl font-semibold text-white mb-3'>

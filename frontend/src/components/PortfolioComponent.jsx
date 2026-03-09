@@ -14,7 +14,7 @@ const PortfolioComponent = () => {
   ];
 
   return (
-    <section className='p-section relative animated-bg grid-pattern my-10'>
+    <section className='min-h-screen p-section relative animated-bg grid-pattern'>
       <div
         className='absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30'
         style={{ backgroundImage: `url(${portfolioBg})` }}
@@ -26,6 +26,7 @@ const PortfolioComponent = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className='text-4xl md:text-5xl font-bold text-center mb-20 text-white'
+          style={{ marginBottom: '1rem' }}
         >
           <span className='bg-gradient-to-r from-[#00e5ff] to-[#7a5cff] bg-clip-text text-transparent'>
             FEATURED WORK
@@ -59,10 +60,12 @@ const PortfolioComponent = () => {
                   />
                 </svg>
               </div>
-              <h3 className='text-xl font-semibold text-white group-hover:text-neonBlue transition-colors'>
-                {w.title}
-              </h3>
-              <p className='text-gray-400 mt-1'>{w.category}</p>
+              <div style={{ padding: '1rem' }}>
+                <h3 className='text-xl font-semibold text-white group-hover:text-neonBlue transition-colors'>
+                  {w.title}
+                </h3>
+                <p className='text-gray-400 mt-1'>{w.category}</p>
+              </div>
             </motion.div>
           ))}
         </div>

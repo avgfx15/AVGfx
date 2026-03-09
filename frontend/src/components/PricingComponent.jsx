@@ -19,7 +19,7 @@ const PricingComponent = () => {
         'Social Media',
         '24hr Delivery',
       ],
-      popular: true,
+      popular: false,
     },
     {
       name: 'Premium',
@@ -47,13 +47,14 @@ const PricingComponent = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className='text-4xl md:text-5xl font-bold text-center mb-20 text-white'
+          style={{ marginBottom: '2.5rem' }}
         >
           <span className='bg-gradient-to-r from-[#ff2ed1] to-[#ff7a18] bg-clip-text text-transparent'>
             PRICING PLANS
           </span>
         </motion.h2>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16'>
           {plans.map((plan, i) => (
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -61,14 +62,15 @@ const PricingComponent = () => {
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
               key={i}
-              className={`relative p-8 rounded-2xl border ${
+              className={`relative rounded-2xl border ${
                 plan.popular
                   ? 'bg-gray-900/80 border-neonBlue glow'
                   : 'bg-gray-900/50 border-gray-800 hover:border-neonPink/50'
               } backdrop-blur-sm transition-all duration-300 hover:scale-105`}
+              style={{ padding: '1.5rem 1rem' }}
             >
               {plan.popular && (
-                <div className='absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-neonBlue to-neonPurple px-4 py-3 rounded-full text-sm font-semibold'>
+                <div className='absolute -top-8 left-1/2 -translate-x-1/2 bg-gradient-to-r from-neonBlue to-neonPurple px-4 py-3 rounded-full text-base font-semibold'>
                   Most Popular
                 </div>
               )}
@@ -102,6 +104,7 @@ const PricingComponent = () => {
                     ? 'bg-gradient-to-r from-neonBlue to-neonPurple text-white hover:opacity-90'
                     : 'border border-neonPink text-neonPink hover:bg-neonPink/10'
                 }`}
+                style={{ marginTop: '0.8rem' }}
               >
                 Choose Plan
               </button>

@@ -3,9 +3,15 @@ import { Link } from 'react-router';
 
 const FooterComponent = () => {
   return (
-    <footer className='py-12 sm:py-16 bg-gray-900 border-t border-gray-800'>
+    <footer
+      className='py-12 sm:py-16 bg-gray-900 border-t border-gray-800'
+      style={{ padding: '1.5rem 0' }}
+    >
       <div className='navbar-container'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-12'>
+        <div
+          className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-12'
+          style={{ paddingBottom: '1.5rem' }}
+        >
           <div>
             <h3 className='text-2xl font-bold neon mb-4'>AVGFX</h3>
             <p className='text-gray-400'>
@@ -81,7 +87,10 @@ const FooterComponent = () => {
           </div>
         </div>
 
-        <div className='border-t border-gray-800 pt-8 text-center text-gray-500'>
+        <div
+          className='border-t border-gray-800 pt-8 text-center text-gray-500'
+          style={{ paddingTop: '1.5rem' }}
+        >
           <p>© 2015 - 2026 AVGFX. All rights reserved.</p>
         </div>
       </div>

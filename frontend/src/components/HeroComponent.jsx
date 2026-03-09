@@ -25,14 +25,20 @@ const HeroComponent = () => {
           VIDEO • GRAPHICS
         </h1>
 
-        <p className='mt-6 text-gray-400 text-lg'>
+        <p
+          className='mt-6 text-gray-200 text-2xl'
+          style={{ margin: '1.5rem 0' }}
+        >
           Professional Creative Studio Since 2015
         </p>
 
         <div className='mt-8 flex justify-center gap-6'>
           <button className='neon-btn'>Start Your Project</button>
 
-          <button className='border border-purple-500 px-6 py-3 rounded hover:bg-purple-700 transition'>
+          <button
+            className='border border-purple-500 px-6 py-3 rounded hover:bg-purple-700 transition'
+            style={{ padding: '0.8rem 1rem' }}
+          >
             Watch Showreel
           </button>
         </div>

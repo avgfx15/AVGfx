@@ -1,12 +1,17 @@
-# TODO - Theme Component Implementation
+# TODO: Make All Navbar Tabs Working
 
-## Steps:
-- [x] 1. Install TanStack Query dependency
-- [x] 2. Create ThemeComponent.jsx using TanStack Query
-- [x] 3. Create Navbar.jsx with modern design
-- [x] 4. Update App.jsx with theme and navbar
-- [x] 5. Add navbar styles to index.css
-- [x] 6. Test and verify
+## Status: In Progress
 
-## Status: Completed
+### Steps:
+- [x] 1. Analyze project structure and understand the task
+- [x] 2. Get user confirmation on the plan
+- [x] 3. Update AboutPage.jsx with full content
+- [x] 4. Update ServicesPage.jsx with full content
+- [x] 5. Update PortfolioPage.jsx with full content
+- [x] 6. Verify build passes successfully
+
+### Files to Edit:
+- frontend/src/pages/AboutPage.jsx
+- frontend/src/pages/ServicesPage.jsx
+- frontend/src/pages/PortfolioPage.jsx
 
