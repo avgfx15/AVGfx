@@ -3,20 +3,45 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import servicesBg from '../assets/servicesBG.jpg';
 
+import graphicDesignIcon from '../assets/graphicDesigner.png';
+import audioIcon from '../assets/audioIcon.png';
+import videoIcon from '../assets/videoIcon.png';
+import logoIcon from '../assets/logoIcon.png';
+import socialReelIcon from '../assets/logoIcon.png';
+import motionIcon from '../assets/motionIcon.png';
+
 const ServicesComponent = () => {
   const services = [
     {
+      icon: audioIcon,
       title: 'Audio Editing',
       desc: 'Professional audio mixing and mastering services',
     },
     {
+      icon: videoIcon,
       title: 'Video Ads Creation',
       desc: 'High-converting video advertisements',
     },
-    { title: 'Logo Animation', desc: 'Dynamic brand identity animations' },
-    { title: 'Social Media Reels', desc: 'Engaging content for all platforms' },
-    { title: 'Graphic Design', desc: 'Stunning visual designs for your brand' },
-    { title: 'Motion Graphics', desc: 'Eye-catching animated graphics' },
+    {
+      icon: logoIcon,
+      title: 'Logo Animation',
+      desc: 'Dynamic brand identity animations',
+    },
+    {
+      icon: socialReelIcon,
+      title: 'Social Media Reels',
+      desc: 'Engaging content for all platforms',
+    },
+    {
+      icon: graphicDesignIcon,
+      title: 'Graphic Design',
+      desc: 'Stunning visual designs for your brand',
+    },
+    {
+      icon: motionIcon,
+      title: 'Motion Graphics',
+      desc: 'Eye-catching animated graphics',
+    },
   ];
 
   return (
@@ -52,20 +77,10 @@ const ServicesComponent = () => {
               className='group p-8 bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl hover:border-neonPink/50 transition-all duration-300'
               style={{ padding: '2rem' }}
             >
-              <div className='w-14 h-14 mb-6 rounded-xl bg-gradient-to-br from-neonPink to-neonPurple flex items-center justify-center'>
-                <svg
-                  className='w-7 h-7 text-white'
-                  fill='none'
-                  stroke='currentColor'
-                  viewBox='0 0 24 24'
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth={2}
-                    d='M13 10V3L4 14h7v7l9-11h-7z'
-                  />
-                </svg>
+              <div className='w-14 h-14 mb-6 rounded-xl bg-gradient-to-br from-neonPink to-neonPurple flex items-center justify-center' style={{ marginBottom: '0.8rem'}}>
+                <img src={s.icon} alt='Icon' />
+
+
               </div>
               <h3 className='text-xl font-semibold text-white group-hover:text-neonPink transition-colors'>
                 {s.title}
