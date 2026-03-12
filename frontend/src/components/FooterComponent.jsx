@@ -7,7 +7,7 @@ const FooterComponent = () => {
       className='py-12 sm:py-16 bg-gray-900 border-t border-gray-800'
       style={{ padding: '1.5rem 0' }}
     >
-      <div className='navbar-container'>
+      <div className='w-[80%]' style={{ margin: '0 auto' }}>
         <div
           className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-12'
           style={{ paddingBottom: '1.5rem' }}

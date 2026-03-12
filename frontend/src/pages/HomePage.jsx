@@ -8,14 +8,14 @@ import PricingComponent from '../components/PricingComponent';
 
 const HomePage = () => {
   return (
-    <>
+    <div className='w-full'>
       <HeroComponent />
       <ServicesComponent />
       <PortfolioComponent />
       <WhyChooseUSComponent />
       <PricingComponent />
       <ContactFormComponent />
-    </>
+    </div>
   );
 };
 

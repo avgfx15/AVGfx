@@ -4,7 +4,7 @@ import heroBg1 from '../assets/heroBG1.jpg';
 
 const HeroComponent = () => {
   return (
-    <section className='min-h-screen flex items-center justify-center text-center relative overflow-hidden pt-20 pb-10'>
+    <section className='min-h-screen flex items-center justify-center text-center relative overflow-hidden'>
       {/* Background Image */}
       <div
         className='absolute inset-0 bg-cover bg-center bg-no-repeat'
@@ -16,7 +16,7 @@ const HeroComponent = () => {
       <div className='absolute inset-0 animated-bg grid-pattern my-10' />
 
       {/* Content */}
-      <div className='navbar-container relative z-10'>
+      <div className='w-[80%] relative z-10' style={{ margin: '0 auto' }}>
         <h1 className='text-6xl md:text-7xl font-bold neon-text leading-tight'>
           TURN YOUR IDEAS INTO
           <br />

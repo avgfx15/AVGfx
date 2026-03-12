@@ -41,7 +41,7 @@ const PricingComponent = () => {
         style={{ backgroundImage: `url(${pricingBg})` }}
       />
       <div className='orb orb-2'></div>
-      <div className='navbar-container relative z-10'>
+      <div className='w-[80%] relative z-10' style={{ margin: '0 auto' }}>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -104,7 +104,7 @@ const PricingComponent = () => {
                     ? 'bg-gradient-to-r from-neonBlue to-neonPurple text-white hover:opacity-90'
                     : 'border border-neonPink text-neonPink hover:bg-neonPink/10'
                 }`}
-                style={{ marginTop: '0.8rem' }}
+                style={{ marginTop: '0.8rem', padding: '0.5rem 1rem' }}
               >
                 Choose Plan
               </button>

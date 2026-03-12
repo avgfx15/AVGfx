@@ -16,7 +16,10 @@ import FooterComponent from './components/FooterComponent';
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='min-h-screen flex flex-col'>
+      <div
+        className='min-h-screen flex flex-col w-full'
+        style={{ margin: '0 auto' }}
+      >
         <NavbarComponent />
 
         <main className='flex-1 w-full'>

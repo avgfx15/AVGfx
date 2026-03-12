@@ -52,7 +52,7 @@ const ServicesComponent = () => {
         style={{ backgroundImage: `url(${servicesBg})` }}
       />
       <div className='orb orb-2'></div>
-      <div className='navbar-container relative z-10'>
+      <div className='w-[80%] relative z-10' style={{ margin: '0 auto' }}>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -77,10 +77,11 @@ const ServicesComponent = () => {
               className='group p-8 bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl hover:border-neonPink/50 transition-all duration-300'
               style={{ padding: '2rem' }}
             >
-              <div className='w-14 h-14 mb-6 rounded-xl bg-gradient-to-br from-neonPink to-neonPurple flex items-center justify-center' style={{ marginBottom: '0.8rem'}}>
+              <div
+                className='w-14 h-14 mb-6 rounded-xl bg-gradient-to-br from-neonPink to-neonPurple flex items-center justify-center'
+                style={{ marginBottom: '0.8rem' }}
+              >
                 <img src={s.icon} alt='Icon' />
-
-
               </div>
               <h3 className='text-xl font-semibold text-white group-hover:text-neonPink transition-colors'>
                 {s.title}

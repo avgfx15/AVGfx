@@ -12,7 +12,7 @@ const AboutPage = () => {
             backgroundImage: `url(${whyChooseBg})`,
           }}
         />
-        <div className='navbar-container relative z-10 py-20'>
+        <div className='w-[80%] relative z-10 py-20'>
           <div className='text-center'>
             <h1
               className='text-5xl md:text-7xl font-bold neon-text mb-6'

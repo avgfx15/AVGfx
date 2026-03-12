@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router';
 import heroBg1 from '../assets/heroBG1.jpg';
 
+import Logo from '../../public/LOGO_AVGfx.png';
+
 const NavbarComponent = () => {
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,15 +20,23 @@ const NavbarComponent = () => {
 
   return (
     <nav className='fixed top-0 left-0 z-50 backdrop-blur-md bg-[#000642] border-b border-gray-800/50 items-center navbar'>
-      <div className='navbar-container'>
+      <div className='w-[80%]' style={{ margin: '0 auto' }}>
         <div className='flex justify-between items-center h-16'>
           {/* Logo */}
-          <Link to='/' className='text-xl sm:text-2xl font-bold neon'>
-            AVGFX
+          <Link to='/' className='flex items-center'>
+            <img
+              src={Logo}
+              alt='AVGFX Logo'
+              className='h-8 sm:h-10 inline-block'
+              style={{ marginRight: '0.8rem' }}
+            />
+            <p className='text-xl sm:text-3xl font-bold neon inline-block font-family-display'>
+              AVGfx
+            </p>
           </Link>
 
           {/* Desktop Navigation - centered */}
-          <ul className='hidden md:flex absolute left-1/2 transform -translate-x-1/2 gap-6 text-sm font-medium uppercase'>
+          <ul className='hidden lg:flex absolute left-1/2 transform -translate-x-1/2 gap-6 text-sm font-medium uppercase'>
             <li>
               <Link
                 to='/'
@@ -70,13 +80,13 @@ const NavbarComponent = () => {
           </ul>
 
           {/* CTA Button - Desktop */}
-          <button className='hidden md:block bg-gradient-to-r from-neonPink to-neonPurple px-4 sm:px-6 py-2 rounded-full font-semibold text-sm glow hover:scale-105 transition-transform'>
+          <button className='hidden lg:block bg-gradient-to-r from-neonPink to-neonPurple px-4 sm:px-6 py-2 rounded-full font-semibold text-sm glow hover:scale-105 transition-transform'>
             Get Quote
           </button>
 
           {/* Mobile Menu Button */}
           <button
-            className='md:hidden p-2 text-white'
+            className='lg:hidden p-2 text-white'
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg
@@ -106,9 +116,9 @@ const NavbarComponent = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className='md:hidden py-4 border-t border-gray-800'>
+          <div className='lg:hidden py-4 border-t border-gray-800'>
             <ul className='space-y-3 text-center'>
-              <li>
+              <li style={{ margin: '0.8rem 0' }}>
                 <Link
                   to='/'
                   className={`block py-2 hover:text-neonPink transition-colors ${isActive('/')}`}
@@ -117,7 +127,7 @@ const NavbarComponent = () => {
                   Home
                 </Link>
               </li>
-              <li>
+              <li style={{ marginBottom: '0.8rem' }}>
                 <Link
                   to='/about'
                   className={`block py-2 hover:text-neonPink transition-colors ${isActive('/about')}`}
@@ -126,7 +136,7 @@ const NavbarComponent = () => {
                   About
                 </Link>
               </li>
-              <li>
+              <li style={{ marginBottom: '0.8rem' }}>
                 <Link
                   to='/services'
                   className={`block py-2 hover:text-neonPink transition-colors ${isActive('/services')}`}
@@ -135,7 +145,7 @@ const NavbarComponent = () => {
                   Services
                 </Link>
               </li>
-              <li>
+              <li style={{ marginBottom: '0.8rem' }}>
                 <Link
                   to='/portfolio'
                   className={`block py-2 hover:text-neonPink transition-colors ${isActive('/portfolio')}`}
@@ -144,7 +154,7 @@ const NavbarComponent = () => {
                   Portfolio
                 </Link>
               </li>
-              <li>
+              <li style={{ marginBottom: '0.8rem' }}>
                 <Link
                   to='/contact'
                   className={`block py-2 hover:text-neonPink transition-colors ${isActive('/contact')}`}
@@ -153,7 +163,7 @@ const NavbarComponent = () => {
                   Contact
                 </Link>
               </li>
-              <li>
+              <li style={{ marginBottom: '0.8rem' }}>
                 <button className='w-full bg-gradient-to-r from-neonPink to-neonPurple px-6 py-2 rounded-full font-semibold mt-2'>
                   Get Quote
                 </button>

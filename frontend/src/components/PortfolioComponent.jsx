@@ -20,7 +20,7 @@ const PortfolioComponent = () => {
         style={{ backgroundImage: `url(${portfolioBg})` }}
       />
       <div className='orb orb-1'></div>
-      <div className='navbar-container relative z-10'>
+      <div className='w-[80%] relative z-10' style={{ margin: '0 auto' }}>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

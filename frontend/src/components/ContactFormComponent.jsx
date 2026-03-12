@@ -4,13 +4,13 @@ import contactBg from '../assets/contactUSBG.jpg';
 
 const ContactFormComponent = () => {
   return (
-    <section className='p-section relative animated-bg grid-pattern my-10 h-screen'>
+    <section className='p-section relative animated-bg grid-pattern my-10 min-h-screen'>
       <div
         className='absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30'
         style={{ backgroundImage: `url(${contactBg})` }}
       />
       <div className='orb orb-1'></div>
-      <div className='navbar-container relative z-10'>
+      <div className='w-[80%] relative z-10' style={{ margin: '0 auto' }}>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
